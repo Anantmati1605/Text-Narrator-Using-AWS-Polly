@@ -15,6 +15,7 @@ The system is built entirely on AWS serverless services:
 - IAM – Manages permissions for Lambda to access Polly and S3.
 
 [Architecture Diagram]
+
 <img width="1217" height="565" alt="Image" src="https://github.com/user-attachments/assets/3f824c45-3cd3-4b43-945f-23aedc57674f" />
 
 ---
@@ -47,7 +48,6 @@ The system is built entirely on AWS serverless services:
         }
     ]
   }
-```
 
 * Step 3: Create an IAM Role and attach above policy along with AWSLambdaBasicExecutionRole Policie
 * Step 4: Create and Configure the Lambda Function
