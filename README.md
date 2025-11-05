@@ -57,6 +57,7 @@ The system is built entirely on AWS serverless services:
          - Set up an event notification in the source S3 bucket to trigger the Lambda function on new object creation events with the `.txt` suffix.
 * Step 6: Write Lambda Function Code (In repository .py file)
 * Step 7: Upload .txt File in S3 Source Bucket then .mp3 audio file will be stored automatically in Destination Bucket.
+* [AWSCloud.mp3](https://github.com/user-attachments/files/23358038/AWSCloud.mp3)
 
 ## Acknowledgments
 This project was inspired by a course from [Yeshwanth L M](https://github.com/yeshwanthlm). 
