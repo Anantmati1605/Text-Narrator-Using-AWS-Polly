@@ -50,10 +50,10 @@ The system is built entirely on AWS serverless services:
   }
 
 * Step 3: Create an IAM Role and attach above policy along with AWSLambdaBasicExecutionRole Policie
-* Step 4: Create and Configure the Lambda Function
-         - Set the execution role with necessary permissions for S3 and Polly.
+* Step 4: Create and Configure the Lambda Function. \
+         - Set the execution role with necessary permissions for S3 and Polly. \
          - Add Environment Variables (`SOURCE_BUCKET`: Name of the source S3 bucket and `DESTINATION_BUCKET`: Name of the destination S3 bucket.)
-* Step 5: Configure S3 Event Notification
+* Step 5: Configure S3 Event Notification. \
          - Set up an event notification in the source S3 bucket to trigger the Lambda function on new object creation events with the `.txt` suffix.
 * Step 6: Write Lambda Function Code (In repository .py file)
 * Step 7: Upload .txt File in S3 Source Bucket then .mp3 audio file will be stored automatically in Destination Bucket.
