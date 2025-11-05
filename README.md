@@ -9,10 +9,10 @@ The text narrator project using AWS services i.e AWS Lambda, S3 Bucket, IAM, Ama
 
 The system is built entirely on AWS serverless services:
 
-AWS Lambda – Serverless function that processes text and calls Amazon Polly.
-Amazon Polly – Text-to-Speech service that generates high-quality speech.
-Amazon S3 – Storage for uploaded .txt files and generated .mp3 files.
-IAM – Manages permissions for Lambda to access Polly and S3.
+- **AWS Lambda – Serverless function that processes text and calls Amazon Polly.
+- **Amazon Polly – Text-to-Speech service that generates high-quality speech.
+- **Amazon S3 – Storage for uploaded .txt files and generated .mp3 files.
+- **IAM – Manages permissions for Lambda to access Polly and S3.
 
 [Architecture Diagram]
 <img width="1217" height="565" alt="Image" src="https://github.com/user-attachments/assets/3f824c45-3cd3-4b43-945f-23aedc57674f" />
